@@ -47,5 +47,5 @@ bench --site dev.altrixone install-app erpnext
 bench get-app https://github.com/resilient-tech/india-compliance --branch develop
 bench --site dev.altrixone install-app india-compliance
 bench get-app https://github.com/Altrix-One/GETPOS --branch deployment-development
-bench --site dev.altrixone install-app GETPOS
+bench --site dev.altrixone install-app getpos
 bench build
