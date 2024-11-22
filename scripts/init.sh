@@ -44,6 +44,8 @@ bench --site dev.altrixone clear-cache
 bench use dev.altrixone
 bench get-app https://github.com/epiusegs/erpnext --branch dev_altrix_one_develop
 bench --site dev.altrixone install-app erpnext
+bench get-app https://github.com/resilient-tech/india-compliance --branch develop
+bench --site dev.altrixone install-app india-compliance
 bench get-app https://github.com/Altrix-One/GETPOS --branch deployment-development
 bench --site dev.altrixone install-app GETPOS
 bench build
